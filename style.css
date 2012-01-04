@@ -1,0 +1,33 @@
+.appFolder {
+	background-image: url(images/folder-bg.png);
+	background-repeat: repeat;
+	
+	color: #ffffff;
+	text-shadow: 0 1px 0 #404040;
+	
+	margin-bottom: 10px;
+	
+	padding: 14px;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: 2px solid #c0c0c0;
+}
+
+div.appFolder h2 {
+	color: #ffffff;
+	text-shadow: 0 1px 0 #404040;
+	margin-bottom: 20;
+	
+	margin-top: -6px;
+	padding-bottom: 6px;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+footer {
+	text-align: center;
+}
