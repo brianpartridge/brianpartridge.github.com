@@ -36,6 +36,10 @@ div.ios h2 {
 	text-shadow: 0 1px 0 #404040;
 }
 
+.appicon {
+	padding-left: 10px;
+}
+
 /* Style a project to look like github.com. */
 .github {
 	color: #99A7AF;
