@@ -48,6 +48,10 @@ div.github h2 {
 	color: #495961;
 }
 
+.octocat {
+	padding-left: 10px;
+}
+
 /* Misc */
 body {
 	background-color: #f5f5f5;
@@ -55,4 +59,6 @@ body {
 
 footer {
 	text-align: center;
+	color: #CACACA;
+/*	text-shadow: 0 -1px 0 #99A7AF;*/
 }
