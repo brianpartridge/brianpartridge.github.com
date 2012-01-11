@@ -12,13 +12,13 @@
     <![endif]-->
 
     <!-- Styles -->
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
     <style type="text/css">
       body {
         padding-top: 60px;
       }
     </style>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -43,75 +43,98 @@
   <body>
 
     <div class="topbar">
-      <div class="fill">
-        <div class="container">
-          <ul class="nav">
-            <li class="active"><a href="index.html"><img src="images/logo.png"></a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="http://blog.brianpartridge.name">Blog</a></li>
-          </ul>
+        <div class="fill">
+            <div class="container">
+                <ul class="nav">
+                    <li class="active">
+                        <a href="index.html"><img src="images/logo.png" alt="BP logo"></a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.brianpartridge.name">Blog</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
 
+
     <div class="container">
+        <div class="row">
+            <div class="span8">
+                <div class="project ios">
+                    <h2>
+                        Six Degrees
+                    </h2>
+                    <div class="row">
+                        <div class="span3 appicon">
+                            <a href="SixDegrees/"><img src="images/sixdegrees-icon.png" width="130" height="130" alt="Six Degrees icon"></a>
+                        </div>
+                        <div class="span4">
+                            <p>
+                                Find connections between your favorite actors, and introduce yourself to new films along the way.
+                            </p>
+                            <p>
+                                <a class="btn success" href="http://bit.ly/rrNWh6">Download</a> <a class="btn" href="SixDegrees/">More »</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      <div class="row">
-        <div class="span8">
-            <div class="project ios">
-              <h2>Six Degrees</h2>
-              <div class="row">
-                  <div class="span3 appicon">
-                      <a href="SixDegrees/"><img src="images/sixdegrees-icon.png" width="130" height="130"></a>
-                  </div>
-                  <div class="span4">
-                      <p>Find connections between your favorite actors, and introduce yourself to new films along the way.</p>
-                      <p><a class="btn success" href="http://bit.ly/rrNWh6">Download</a> <a class="btn" href="SixDegrees/">More &raquo;</a></p>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div class="span8">
-            <div class="project ios">
-              <h2>LazyEye</h2>
-              <div class="row">
-                  <div class="span3 appicon">
-                      <a href="LazyEye/"><img src="images/lazyeye-icon.png" width="130" height="130"></a>
-                  </div>
-                  <div class="span4">
-                      <p>A Rapid Serial Visual Presentation reader for the iPhone and iPod Touch.</p>
-                        <p><a class="btn success" href="http://bit.ly/qyNQvi">Download</a> <a class="btn" href="LazyEye/">More &raquo;</a></p>
-                  </div>
-              </div>
-          </div>
-       </div>
-
-      </div> <!-- /row -->
+            <div class="span8">
+                <div class="project ios">
+                    <h2>
+                        LazyEye
+                    </h2>
+                    <div class="row">
+                        <div class="span3 appicon">
+                            <a href="LazyEye/"><img src="images/lazyeye-icon.png" width="130" height="130" alt="LazyEye icon"></a>
+                        </div>
+                        <div class="span4">
+                            <p>
+                                A Rapid Serial Visual Presentation reader for the iPhone and iPod Touch.
+                            </p>
+                            <p>
+                                <a class="btn success" href="http://bit.ly/qyNQvi">Download</a> <a class="btn" href="LazyEye/">More »</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /row -->
       
-      <div class="row">
-        <div class="span8">
-            <div class="project github">
-              <h2>Open Source</h2>
-              <div class="row">
-                  <div class="span3 octocat">
-                      <a href="https://github.com/brianpartridge"><img src="images/blacktocat.svg"></a>
-                  </div>
-                  <div class="span4">
-                      <p>Miscellaneous code and projects that I work on in my free time.</p>
-                      <p><a class="btn" href="https://github.com/brianpartridge">Code &raquo;</a></p>
-                  </div>
-              </div>
-          </div>
-        </div>
+        <div class="row">
+            <div class="span8">
+                <div class="project github">
+                    <h2>
+                        Open Source
+                    </h2>
+                    <div class="row">
+                        <div class="span3 octocat">
+                            <a href="https://github.com/brianpartridge"><img src="images/blacktocat.svg" alt="Octocat icon"></a>
+                        </div>
+                        <div class="span4">
+                            <p>
+                                Miscellaneous code and projects that I work on in my free time.
+                            </p>
+                            <p>
+                                <a class="btn" href="https://github.com/brianpartridge">Code »</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /row -->
 
-      </div> <!-- /row -->
-
-      <footer>
-        <p>&copy; Brian Partridge 2012</p>
-        <img src="images/logo-footer.png">
-      </footer>
-
+        <footer>
+            <p>&copy; 2012 Brian Partridge</p>
+            <img src="images/logo-footer.png" alt="BP logo">
+        </footer>
+        
     </div> <!-- /container -->
 
-  </body>
+</body>
 </html>
