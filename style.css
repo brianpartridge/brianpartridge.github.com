@@ -1,5 +1,7 @@
 /* Project rectangles on the main page.*/
 .project {
+	position:relative;
+	
 	margin-bottom: 10px;
 	
 	padding: 14px;
