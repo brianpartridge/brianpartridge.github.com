@@ -1,0 +1,10 @@
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+# misc
+*.swp
+InfoPlist.h
