@@ -40,6 +40,31 @@ div.ios h2 {
 
 .appicon {
 	padding-left: 10px;
+  
+}
+
+.appicon img {
+	border-radius: 22.8px;
+  
+	-webkit-box-shadow: 0 4px 10px #000000;
+	-moz-box-shadow: 0 4px 10px #000000;
+	box-shadow: 0 4px 10px #000000;
+}
+
+/* Style a project that is for sale. */
+.forsale {
+	color: #4b5257;
+	
+	background-color: #ffffff;
+	
+	background-image: url(images/background-blue.png);
+	background-repeat: repeat-x;	
+	
+	border: 2px solid #CACACA;
+}
+
+div.forsale h2 {
+	color: #495961;
 }
 
 /* Style a project to look like github.com. */
