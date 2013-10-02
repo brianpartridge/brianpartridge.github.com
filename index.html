@@ -1,219 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en"><!-- The full page image background will only work if the html has the custom class set to it! Don't delete it! -->
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Brian Partridge's Stuff</title>
-    <meta name="description" content="The software portfolio of Brian Partridge">
-    <meta name="author" content="Brian Partridge">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="bootstrap-1.4.0/bootstrap.min.css">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-      }
-    </style>
-    <link rel="stylesheet" type="text/css" href="ribbon.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    
-    <!-- Google Analytics-->
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-28248621-1']);
-      _gaq.push(['_setDomainName', 'brianpartridge.name']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
+    <!-- Custom CSS for the 'Full' Template -->
+    <link href="css/the-big-picture.css" rel="stylesheet">
   </head>
 
   <body>
-
-    <div class="topbar"> 
-        <div class="fill">
-            <div class="container">
-                <ul class="nav">
-                    <li class="active">
-                        <a href="index.html"><img src="images/logo.png" alt="BP logo"></a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="http://blog.brianpartridge.name">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
+    
     <div class="container">
-        <div class="row">
-          
-          <div class="span8">
-              <div class="project ios">
-                  <h2>
-                      Pocket Share Pro
-                  </h2>
-                  <div class="row">
-                      <div class="span3 appicon">
-                          <a href="PocketShare/"><img src="images/pocketsharepro-icon.png" width="130" height="130" alt="Pocket Share Pro icon"></a>
-                      </div>
-                      <div class="span4">
-                          <p>
-                              Make affiliate marketing with LinkShare work for you.  Share apps and earn commissions on each sale.
-                          </p>
-                          <p>
-                              <a class="btn success" href="http://j.mp/PyI4Hb"><strong>$2.99</strong></a> <a class="btn" href="PocketShare/">More Info »</a>
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6 bubble">
+          <div class="identity">BRIAN <strong>PARTRIDGE</strong></div>
+          <p>I'm an <strong>iOS</strong> developer based in Massachusetts, <strong>focused</strong> on making software that is <strong>entertaining</strong> and <strong>solves</strong> my <strong>problems</strong>. If other people like it too, so much the <strong>better</strong>.</p>
+          <p>I've made software for <a href="http://www.emc.com">big</a> <a href="http://www.vmware.com">companies</a> and I've made <a href="http://peartreelabs.com/index.html#portfolio">a few things of my own</a>.</p>
+          <p>Want to work together? <a href="https://brianpartridge.wufoo.com/forms/contact/">Get in touch.</a></p>
+          <a href="https://twitter.com/brianpartridge" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @brianpartridge</a>
+          <iframe src="http://ghbtns.com/github-btn.html?user=brianpartridge&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
+        </div>
+      </div>
+    </div>
+    
+  <!-- javascript -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-            <div class="span8">
-                <div class="project ios">
-                    <h2>
-                        Six Degrees
-                    </h2>
-                    <div class="row">
-                        <div class="span3 appicon">
-                            <a href="SixDegrees/"><img src="images/sixdegrees-icon.png" width="130" height="130" alt="Six Degrees icon"></a>
-                        </div>
-                        <div class="span4">
-                            <p>
-                                Find connections between your favorite actors, and introduce yourself to new films along the way.
-                            </p>
-                            <p>
-                                <a class="btn success" href="http://bit.ly/rrNWh6"><strong>$1.99</strong></a> <a class="btn" href="SixDegrees/">More Info »</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </body>
 
-            <div class="span8">
-                <div class="project forsale">
-                    <h2>
-                        BPInstalledAppManager
-                    </h2>
-                    <div class="row">
-                        <div class="span3 appicon">
-                            <img src="images/bpiam-icon.png" width="130" height="130" alt="BP App icon"></a>
-                        </div>
-                        <div class="span4">
-                            <p>
-                                The library that powers Pocket Share to detect many of the apps installed on your iPhone is available for use in your own apps.
-                            </p>
-                            <p>
-                                <a class="btn info" href="mailto:brianpartridge%40gmail.com?subject=BPIAM%20License%20Inquiry">License Inquiry »</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="span8">
-                <div class="project github">
-                    <div class="right ribbon-holder">
-                        <span class="red ribbon">
-                          <span class="text">
-                            Fork me on Github
-                          </span>
-                        </span>
-                    </div>
-                    <h2>
-                        Open Source
-                    </h2>
-                    <div class="row">
-                        <div class="span3 octocat">
-                            <a href="https://github.com/brianpartridge"><img src="images/blacktocat.svg" alt="Octocat icon"></a>
-                        </div>
-                        <div class="span4">
-                            <p>
-                                Miscellaneous code and projects<br/>that I work on in my free time.
-                            </p>
-                            <p>
-                                <a class="btn" href="https://github.com/brianpartridge">Code »</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- /row -->
-        
-        <h3>Retired</h3>
-        
-        <div class="row">
-          
-            <div class="span8">
-                <div class="project ios">
-                    <h2>
-                        LazyEye
-                    </h2>
-                    <div class="row">
-                        <div class="span3 appicon">
-                            <a href="LazyEye/"><img src="images/lazyeye-icon.png" width="130" height="130" alt="LazyEye icon"></a>
-                        </div>
-                        <div class="span4">
-                            <p>
-                                A Rapid Serial Visual Presentation reader for the iPhone and iPod Touch.
-                            </p>
-                            <p>
-                                <a class="btn" href="LazyEye/">More Info »</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="span8">
-                <div class="project ios">
-                    <h2>
-                        Pocket Share <small>(FREE)</small>
-                    </h2>
-                    <div class="row">
-                        <div class="span3 appicon">
-                            <a href="PocketShare/"><img src="images/pocketshare-icon.png" width="130" height="130" alt="Pocket Share icon"></a>
-                        </div>
-                        <div class="span4">
-                            <p>
-                                Share apps with friends on Twitter and Facebook, right from your phone.
-                            </p>
-                            <p>
-                                <a class="btn" href="PocketShare/">More Info »</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div> <!-- /row -->
-
-        <footer>
-            <p>&copy; 2012 Brian Partridge</p>
-            <img src="images/logo-footer.png" alt="BP logo">
-        </footer>
-        
-    </div> <!-- /container -->
-
-</body>
 </html>
