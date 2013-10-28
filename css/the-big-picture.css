@@ -20,7 +20,7 @@ body {
 
 .bubble {
   padding: 10px 12px 10px 12px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 6px;
   font-size: 16pt;
 }
@@ -32,4 +32,5 @@ body {
 .identity {
   font-size: 20pt;
   padding-bottom: 6px;
+  text-transform: uppercase;
 }
