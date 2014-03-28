@@ -1,0 +1,83 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am brianpartridge on github.
+    * I am brianpartridge (https://keybase.io/brianpartridge) on keybase.
+      * I have a public key whose fingerprint is EB71 95B1 4313 F900 01DB  073D 3EE1 E8E9 822C B951
+
+      To claim this, I am signing this object:
+
+      ```json
+      {
+              "body": {
+                          "key": {
+                                          "fingerprint": "eb7195b14313f90001db073d3ee1e8e9822cb951",
+                                                      "host": "keybase.io",
+                                                                  "key_id": "3ee1e8e9822cb951",
+                                                                              "uid": "d63eb84b94a4e471397ed2577d8c0c00",
+                                                                                          "username": "brianpartridge"
+                                                                                                  },
+                                                                                                          "service": {
+                                                                                                                          "name": "github",
+                                                                                                                                      "username": "brianpartridge"
+                                                                                                                                              },
+                                                                                                                                                      "type": "web_service_binding",
+                                                                                                                                                              "version": 1
+                                                                                                                                                                  },
+                                                                                                                                                                      "ctime": 1395971024,
+                                                                                                                                                                          "expire_in": 157680000,
+                                                                                                                                                                              "prev": "ed2b903ced35cd39abac93d408e58451f25497c68734f28711ac10454f03bc80",
+                                                                                                                                                                                  "seqno": 2,
+                                                                                                                                                                                      "tag": "signature"
+      }
+      ```
+
+      with the PGP key whose fingerprint is
+      [EB71 95B1 4313 F900 01DB  073D 3EE1 E8E9 822C B951](https://keybase.io/brianpartridge)
+      (captured above as `body.key.fingerprint`), yielding the PGP signature:
+
+      ```
+      -----BEGIN PGP MESSAGE-----
+      Version: Keybase OpenPGP v0.1.1
+      Comment: https://keybase.io/crypto
+
+      yMHbAnichZFtSBRbGMd3TbMWIrNIiCic0IQWO/O2Z2blEviWgVEqm5Vry5yZs7vn
+      hjPr7Iuti1SIXCS2N7qImEoSRpRFKEF9EJEoSz90kyKvBGlSkCEJIkhKnhH7FvTp
+      cJ7/7/nzf57n2ZYNNof9XnrPxIeHeNk+OrQYtVUJ468TDDK0OONOMGfx2uMnegCb
+      IZPoEcbNYARZWUSswLO8XwYAsBoCkNd4jFksYVniOBXJIss4maARtjqoDVLCOJ8Y
+      tEY/PqLR6m/46JqguXiMJAHJgiJgAbK8DLHGiRBqkgpUACwwjE1dqcOURiZR9JBi
+      RkyiBTDT5GSoFiMq1RLMOhMgkWAU/akvEg9ZQgNGvnULHyK6RoennTFshomhM26W
+      kmqEWB40mShDFnCCk8HnQsTEPmIRInRJdC/AyYRMHLNWpnFIBryKNV5UNV5WkKLK
+      vCYACYuSILJ+ThRkqLokyAt+ToIsq6gsEETBD3ikStbEYVyvG4ybozGVALUMk4Cu
+      RKImTT485E212R22jWkp1vlsjs0Zv446N5u+ZB+Yr2o+WQZasr/sys2Gpzvj7MLl
+      scHKv2/aiha/drU1yslpz21b8ceSip/T3fed8r/lmfWfjXKCRWemlA+1O7mu0jM5
+      3pKpJznJg22P/o/2TtYZI8KRyRfKaI2n1Hx59+3IU7Gyurvg26aZopUbbdul5Xlv
+      5GIfbA7m9dZONe7cmrp3OCs8CF7tmS3s6rw20jQ3EDueZZ+HrpWx/e/G31z4zxy4
+      cqtD7a9OfMobakfRHds6pLqC55dOFfYlJ4JdNcU5B9oLDv/YF89oOXZ1KcVzveG7
+      L3heqe2rqJx4sOCIZqe1Lr6fOTrW/zjVKDvk6imc9LT+s9ub1E/81b8KxBkUNg==
+      =6lQY
+      -----END PGP MESSAGE-----
+
+      ```
+
+      And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/brianpartridge
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/__/command_line/keybase).
+
+```bash
+# look me up
+keybase id brianpartridge
+
+# encrypt a message to me
+keybase encrypt brianpartridge -m 'a secret message...'
+
+# ...and more...
+```
+
