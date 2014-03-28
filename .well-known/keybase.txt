@@ -1,83 +1,65 @@
-### Keybase proof
+==================================================================
+https://keybase.io/brianpartridge
+--------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am brianpartridge on github.
-    * I am brianpartridge (https://keybase.io/brianpartridge) on keybase.
-      * I have a public key whose fingerprint is EB71 95B1 4313 F900 01DB  073D 3EE1 E8E9 822C B951
+  * I am an admin of http://brianpartridge.name
+  * I am brianpartridge (https://keybase.io/brianpartridge) on keybase.
+  * I have a public key with fingerprint EB71 95B1 4313 F900 01DB  073D 3EE1 E8E9 822C B951
 
-      To claim this, I am signing this object:
+To claim this, I am signing this object:
 
-      ```json
-      {
-              "body": {
-                          "key": {
-                                          "fingerprint": "eb7195b14313f90001db073d3ee1e8e9822cb951",
-                                                      "host": "keybase.io",
-                                                                  "key_id": "3ee1e8e9822cb951",
-                                                                              "uid": "d63eb84b94a4e471397ed2577d8c0c00",
-                                                                                          "username": "brianpartridge"
-                                                                                                  },
-                                                                                                          "service": {
-                                                                                                                          "name": "github",
-                                                                                                                                      "username": "brianpartridge"
-                                                                                                                                              },
-                                                                                                                                                      "type": "web_service_binding",
-                                                                                                                                                              "version": 1
-                                                                                                                                                                  },
-                                                                                                                                                                      "ctime": 1395971024,
-                                                                                                                                                                          "expire_in": 157680000,
-                                                                                                                                                                              "prev": "ed2b903ced35cd39abac93d408e58451f25497c68734f28711ac10454f03bc80",
-                                                                                                                                                                                  "seqno": 2,
-                                                                                                                                                                                      "tag": "signature"
-      }
-      ```
+{
+    "body": {
+        "key": {
+            "fingerprint": "eb7195b14313f90001db073d3ee1e8e9822cb951",
+            "host": "keybase.io",
+            "key_id": "3ee1e8e9822cb951",
+            "uid": "d63eb84b94a4e471397ed2577d8c0c00",
+            "username": "brianpartridge"
+        },
+        "service": {
+            "hostname": "brianpartridge.name",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395971885,
+    "expire_in": 157680000,
+    "prev": "b84eb973a04611541e83e711cda5a1a273b9ef0a8e30dd64a06774e8d74ff257",
+    "seqno": 5,
+    "tag": "signature"
+}
 
-      with the PGP key whose fingerprint is
-      [EB71 95B1 4313 F900 01DB  073D 3EE1 E8E9 822C B951](https://keybase.io/brianpartridge)
-      (captured above as `body.key.fingerprint`), yielding the PGP signature:
+with the aforementioned key, yielding the PGP signature:
 
-      ```
-      -----BEGIN PGP MESSAGE-----
-      Version: Keybase OpenPGP v0.1.1
-      Comment: https://keybase.io/crypto
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
 
-      yMHbAnichZFtSBRbGMd3TbMWIrNIiCic0IQWO/O2Z2blEviWgVEqm5Vry5yZs7vn
-      hjPr7Iuti1SIXCS2N7qImEoSRpRFKEF9EJEoSz90kyKvBGlSkCEJIkhKnhH7FvTp
-      cJ7/7/nzf57n2ZYNNof9XnrPxIeHeNk+OrQYtVUJ468TDDK0OONOMGfx2uMnegCb
-      IZPoEcbNYARZWUSswLO8XwYAsBoCkNd4jFksYVniOBXJIss4maARtjqoDVLCOJ8Y
-      tEY/PqLR6m/46JqguXiMJAHJgiJgAbK8DLHGiRBqkgpUACwwjE1dqcOURiZR9JBi
-      RkyiBTDT5GSoFiMq1RLMOhMgkWAU/akvEg9ZQgNGvnULHyK6RoennTFshomhM26W
-      kmqEWB40mShDFnCCk8HnQsTEPmIRInRJdC/AyYRMHLNWpnFIBryKNV5UNV5WkKLK
-      vCYACYuSILJ+ThRkqLokyAt+ToIsq6gsEETBD3ikStbEYVyvG4ybozGVALUMk4Cu
-      RKImTT485E212R22jWkp1vlsjs0Zv446N5u+ZB+Yr2o+WQZasr/sys2Gpzvj7MLl
-      scHKv2/aiha/drU1yslpz21b8ceSip/T3fed8r/lmfWfjXKCRWemlA+1O7mu0jM5
-      3pKpJznJg22P/o/2TtYZI8KRyRfKaI2n1Hx59+3IU7Gyurvg26aZopUbbdul5Xlv
-      5GIfbA7m9dZONe7cmrp3OCs8CF7tmS3s6rw20jQ3EDueZZ+HrpWx/e/G31z4zxy4
-      cqtD7a9OfMobakfRHds6pLqC55dOFfYlJ4JdNcU5B9oLDv/YF89oOXZ1KcVzveG7
-      L3heqe2rqJx4sOCIZqe1Lr6fOTrW/zjVKDvk6imc9LT+s9ub1E/81b8KxBkUNg==
-      =6lQY
-      -----END PGP MESSAGE-----
+yMHlAnicbZFbSBRfHMd319XFlS6Gt7J9OVixtNqcnZmdmSWDpJ7Ciox6SFnmcnZ3
+KGe2mdl1F7OCP6ZdBENiiS2k0ggsJKp/L4VmRaVLEhteCkPMbvvSQ4JQFp5Z6s2n
+w/n9Pt/v7/ZsVZ7FaR1wXJ+eGURL1rHhP1FLAzVZ3QoEVUoAfys4inJPUFZCSIto
+smIAP0ACAzlagBQJySBHEASUBIIhJRIhiFjEsV6vKHA0BB4QVnVTgW0EXkc1sopj
++BOQJRxdgY/mEpKPRAJLCRzFU4hiIMkxSPLSDCOxIiEShAnqSFP4ZoRpQZN5JcJr
+hiZLIQTaPADnYrKIc625BlbkanJRD4hoqqGK6jEMhA0j4jf1RiJiClqQEPhrFRBk
+RcJLwIIY0nRZVYAfYlI0ZNMbd0hzDGRZ2gNQPCJrKCCbBM34WLwfwiyDYmYPLIUE
+jiF5gvJBSFN4fhIxEIoST/OQ9zKkwKEgwbOIJCTJR/GEj2EoxEoMFQziDeD6Ojqu
+qMCPKxl8CFvqckjhjaiGJx8ZbrRbrE5LQb7NPKPFWbj233EDI46lNdVnbdlNQ1m9
+1HWgPFlaUdKZoB0vtm28mKk/M1Q0c77Nuzj/BbV1uVezILM+/3AyPa1/G/8tZEp2
+PLQ/KbT+vOuuKD1xMj7jqtsbtd370Ojd1/JxYenqVMHm2j7bOvj6mnP/4PDiQNkh
+X/jyrtDoQVjm7qi3Ka/yX57+VLVny/uu/sreTmflm4qpprG69sbBB6k7VTvB+ERc
+755PpzL/X3nXfuN7w9bbXFPlaLrYuHDT+TRJ93OTqfh4IXDFqCPFfuWxIzmbV5vo
+bf6VyL612y+5OzbsvjXXey5dBD2z4bFTfXy2wNXz6L+qBefnCbk79XykfO5r0nF/
++4+eZWDxExk=
+=P9MK
+-----END PGP MESSAGE-----
 
-      ```
+And finally, I am proving ownership of this host by posting or
+appending to this document.
 
-      And finally, I am proving ownership of the github account by posting this as a gist.
+View my publicly-auditable identity here: https://keybase.io/brianpartridge
 
-### My publicly-auditable identity:
-
-https://keybase.io/brianpartridge
-
-### From the command line:
-
-Consider the [keybase command line program](https://keybase.io/__/command_line/keybase).
-
-```bash
-# look me up
-keybase id brianpartridge
-
-# encrypt a message to me
-keybase encrypt brianpartridge -m 'a secret message...'
-
-# ...and more...
-```
-
+==================================================================
